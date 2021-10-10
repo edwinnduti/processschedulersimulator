@@ -20,4 +20,4 @@ $ ./mycode
 
 * On windows, use codeblocks or Bloodshed Dev C++ Compiler.
 
-Enjoy with ❤️‍🔥!
+Enjoy with ❤️!
