@@ -1,6 +1,6 @@
 /*
 -> Author - Edwin Nduti
--> Description - The code is a simulation and reads the 
+-> Description - The code is a C++ language simulation and reads the 
                 processList.txt file using the ifstream type,
                 creates a process, schedules its execution order using a queue.
 */
