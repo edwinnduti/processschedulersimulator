@@ -7,7 +7,7 @@
 * Every process in the file has an ID(on the left) and a required time of execution in ms (on the right).
 
 ### Execution locally(on Linux terminal).
-'''bash
+```bash
 
 $ git clone https://github.com/edwinnduti/processschedulersimulator.git
 
@@ -16,8 +16,7 @@ $ cd processschedulersimulator/
 $ g++ code.cpp -o mycode
 
 $ ./mycode
-
-'''
+```
 
 * On windows, use codeblocks or Bloodshed Dev C++ Compiler.
 
