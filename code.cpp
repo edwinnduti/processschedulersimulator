@@ -56,15 +56,15 @@ class Process{
 // the main function
 int main(){
     string line;
-    ifstream fin ("processList.txt"); // similar to fin.open("processList.txt");
+    ifstream file ("processList.txt"); // similar to fin.open("processList.txt");
 
     vector<Process> record;
-    if (fin.is_open()) {
+    if (file.is_open()) {
         cout << "file opened"<<endl;
     }
 
     // Read a Line from File
-    while (getline(fin, line)) {    // you can use while(!fin.eof){getline(fin, line);....}
+    while (getline(file, line)) {    // you can use while(!fin.eof){getline(fin, line);....}
         // check if line exists
         if(line.size() > 0) {
             string id="";
@@ -89,7 +89,7 @@ int main(){
         }
     }
     // Close the file
-    fin.close();
+    file.close();
 
     //Displaying all the processes
     for(auto i=record.begin();i!=record.end();i++){
